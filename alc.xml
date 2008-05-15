@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/">
+<ShortName>ALC</ShortName>
+<Description>SPACE ALC (Ejiro on the WEB)</Description>
+<InputEncoding>UTF-8</InputEncoding>
+<Image width="16" height="16">data:image/x-icon;base64,Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAA/5s3/5s3/5s3/5s3/4AA/5s3/8KG/8KG/8KG/4AA/4AA/5s3/5s3/5s3/5s3/5s3/5s3/5s3/5s3/5s3/927/////////////////////927/8KG/5s3/5s3/5s3/5s3/5s3/5s3/4AA/////////////////////////////////////4AA/5s3/5s3/5s3/5s3/5s3/4AA/////////////////////////////////////927/4AA/5s3/5s3/5s3/5s3/5s3/4AA/5s3/927/////////////////////////////////4AA/5s3/5s3/5s3/5s3/5s3/5s3/4AA/////////////////////////////////8KG/4AA/5s3/5s3/5s3/5s3/5s3/5s3/5s3/927/////////////////////////8KG/4AA/4AA/5s3/5s3/5s3/5s3/5s3/4AA/4AA/8KG/////////////////////927/4AA/4AA/927/////////////////////////////////////////////////927/4AA/4AA/8KG/////////////////////////////////////////////////927/4AA/5s3/4AA/927/////////////////////////////////////////////4AA/5s3/5s3/5s3/5s3/////////8KG/8KG/////////////////////////////4AA/5s3/5s3/5s3/5s3/8KG/////4AA/4AA/////////////////////927/4AA/5s3/5s3/5s3/5s3/5s3/4AA/8KG/////////////////////////////4AA/5s3/5s3/5s3/5s3/5s3/5s3/5s3/4AA/4AA/927/////////927/927/5s3/5s3/5s3/5s3/5s3/5s3/5s3/5s3/5s3/5s3/5s3/4AA/4AA/4AA/4AA/4AA/5s3/5s3/5s3/5s3/5s3</Image>
+<Url type="text/html" method="GET" template="http://eow.alc.co.jp/{searchTerms}/UTF-8/">
+  <Param name="ref" value="sa"/>
+  <MozParam name="client" condition="defaultEngine" trueValue="firefox-a" falseValue="firefox"/>
+</Url>
+<SearchForm>http://www.alc.co.jp/</SearchForm>
+<Alias>alc</Alias>
+</SearchPlugin>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/">
+<ShortName>CPAN</ShortName>
+<Description>CPAN Search</Description>
+<InputEncoding>UTF-8</InputEncoding>
+<Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAB3RJTUUH1gUdASQWZt5rYAAAABd0RVh0U29mdHdhcmUAR0xEUE5HIHZlciAzLjRxhaThAAAACHRwTkdHTEQzAAAAAEqAKR8AAAAEZ0FNQQAAsY8L/GEFAAAAMFBMVEX///8AAHsAewAAe3t7AAB7AHt7ewC9vb17e3sAAP8A/wAA////AAD/AP///wAAAAAAJ/C6AAAACXRSTlP//////////wBTT3gSAAAAQUlEQVR4nD3NMQ4AIAwCwD6fja86sqHUKulwA6EFGklx6cJ+oBAXKNoNJx8qoMEDPmA6mR7wXMpirgchocvML0w26AFaAyIThioAAAAASUVORK5CYII=</Image>
+<Url type="text/html" method="GET" template="http://search.cpan.org/search">
+  <Param name="query" value="{searchTerms}"/>
+  <Param name="mode" value="all"/>
+  <MozParam name="client" condition="defaultEngine" trueValue="firefox-a" falseValue="firefox"/>
+</Url>
+<SearchForm>http://search.cpan.org/search</SearchForm>
+<Alias>cpan</Alias>
+</SearchPlugin>

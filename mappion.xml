@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/">
+<ShortName>マピオン</ShortName>
+<Description>マピオン</Description>
+<InputEncoding>UTF-8</InputEncoding>
+<Image width="16" height="16">data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAABMLAAATCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMeHQTDHh0HPx4dB/8eHQf/Hh0G/XV2l7yFD3v8XN+j/GCnn7xkc558aEecgAAAAAAAAAAAAAAAAAAAAAAAAAADHh0Hfx4dBcA5e648OXev/R222/5l+bP+xgFb/TGC1/xVI6f8WOuj/GSPn/xoS54AAAAAAAAAAAAAAAAAAAAAAx4dB/wtr7I8Lbu3/C3Ht/wty7f8LcO3/OnXC/7CEV/+DdYD/E1Hq/xZD6P8YKuf/GhTngAAAAAAAAAAAAAAAAMeHQf8Keu//CoDw/wqE8P8KhfD/CoPw/wp/7/8WeeP/mINs/6V/Yf8dV9//FkTo/xgo5/8aGecgAAAAAAAAAAB2h4zfCYzx/wiS8v8IlvP/CJfz/wiV8/8IkPL/CYnx/wp/7/+AgoL/pH9h/xJU6v8WQOj/GSfnnwAAAAAAAAAACJHy/web9P8HovX/B6f1/weo9v8HpvX/B6D0/wiY8/8IjfH/CoDv/5iDbP+Cd4H/FE7p/xc26O8AAAAAAAAAAAee9P8Gqfb/BbL3/wW3+P8EuPn/Bbb4/wav9/8HpfX/B5rz/wmM8f8WfuT/sIVX/0pltf8WQ+j/AAAAAAAAAAAGqfb/Bbb4/wTA+v8Dx/z/A8n8/wPF+/8Evfr/BbH3/wek9f8IlvP/CYXw/zp6w/+wgVb/IE/f/wAAAAAAAAAABbH3/wTA+v8DzP3/AtX+/wLX/v8C0v7/A8n8/wS7+f8GrPb/B530/wmM8f8Keu//mIFs/1xlpu8AAAAAAAAAAAS5+a8Dx/z/AtX+/wHh//8B5f//At3//wPQ/f8Ewfv/BbH3/weh9P8IkPL/Cn3v/0Z1t//Hh0G/AAAAAAAAAAAEvfpAA8j8/wLX/v8B5P//Aev//wHg//8D0v7/BMP7/wWy+P8HovX/CJHy/wp+7/8Ma+z/x4dB/wAAAAAAAAAAAAAAAAPH/J8D0v3/Atz//wHf//8C2f7/A879/wS/+v8Gr/f/B5/0/wiO8v8KfO//C23tj8eHQf8AAAAAAAAAAAAAAAAAAAAAA8v8nwPP/f8D0f3/A839/wTE+/8Ft/n/Bqn2/wea8/8JifH/Cnrvj8eHQXDHh0HPAAAAAAAAAAAAAAAAAAAAAAAAAAADxvxABMX7rwS/+v8Ft/n/Bq32/weg9P9nj5rfx4dB/8eHQf/Hh0Hfx4dBMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADB0wAAwdMAAMHTAADB0wAAwdMAAMHTAADB0wAAwdMAAMHTAADB0wAAwdMAAMHTAADB0wAAwdMAAMHTAADB0w==</Image>
+<Url type="text/html" method="GET" template="http://www.mapion.co.jp/c/f">
+  <Param name="p"   value="1"/>
+  <Param name="uc"  value="7"/>
+  <Param name="mx"  value="999"/>
+  <Param name="vp"  value="20"/>
+  <Param name="grp" value="all"/>
+  <Param name="oi"  value="admi3code"/>
+  <Param name="ob"  value="1"/>
+  <Param name="find" value="{searchTerms}"/>
+  <MozParam name="client" condition="defaultEngine" trueValue="firefox-a" falseValue="firefox"/>
+</Url>
+<SearchForm>http://www.mapion.co.jp/</SearchForm>
+<Alias>map</Alias>
+</SearchPlugin>
